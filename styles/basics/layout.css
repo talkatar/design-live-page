@@ -1,28 +1,7 @@
 /* MAIN LAYOUT */
-
-.main-layout,.main-header,.main-footer{ 
-    display: grid;
-    grid-template-columns:1fr 61.25rem 1fr;
-}
-
-/* 61.25rem */
-
-.main-layout > * {
-    grid-column: 2;
-}
-.main-footer > * {
-    grid-column: 2;
-}
-
-.main-header > *{
-    grid-column: 2;
-    grid-auto-flow: row;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
-
-.main-header,.main-footer{ 
-    grid-column: 1/-1;
+.main-layout .main footer {
+	display: grid;
+	grid-template-columns: 1fr ;
+	row-gap: 20px;
 }
 

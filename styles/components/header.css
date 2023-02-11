@@ -1,31 +1,26 @@
 .main-header {
     /* display: grid;
     grid-auto-flow: column; */
-    height: 8.125rem;
+    height:4.125rem;
     background-color: var(--clr8);
     text-transform: uppercase;
     color: var(--clr1);
 }
 
-.main-header .main-menu a {
+h1 {
+    margin: 0 60px 40px 0;
+  }
+  .main-header .main-menu a {
     display: flex;
-    padding: 50px 40px;
-    box-shadow: -1px 0 0 var(--clr13), inset 0 0 0 var(--clr14);
+    padding: 38px 40px;
     color: inherit;
     text-decoration: none;
     text-transform: uppercase;
-}
-
- .ul {
-    height: 8.125rem;
-    width: 8.125rem;
+  }
+  .ul {
     background-color: var(--clr8);
-    margin-inline-start: 8.125rem;
-    
-}
-
-
-.main-header .main-menu a:hover {
+  }
+  .main-header .main-menu a:hover {
     color: var(--clr0);
-    border-block-end:6px solid var(--clr0) ;
-}
+    border-block-end: 6px solid var(--clr0);
+  }

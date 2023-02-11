@@ -14,7 +14,8 @@
 @import 'components/screen.css'; 
 @import 'components/footer.css'; 
 @import 'components/modal.css'; 
+@import 'components/screen.css'; 
 
 
 /* MEDIA QUERIS */
-/* @import 'setup/mq.css'; */
+@import 'setup/mq.css';

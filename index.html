@@ -12,10 +12,12 @@
 
 <body class="main-layout">
 
+    <div class="main-screen" onclick="onToggleHamburger()"></div>
+    <div class="main-screen" onclick="onToggleModal()"></div>
 
-    <header class="main-header   ">
+    <header class="main-header grid  ">
         <div class="main-continer flex space-between align-center">
-            <div class="logo ">Blogin</div>
+            <div class="logo">Blogin</div>
             <nav class="main-nav  ">
                 <ul class="main-menu flex  clean-list">
                     <li><a href="#">Journal</a></li>
@@ -24,6 +26,9 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            <button class="btn-open-hamburger" type="button" onclick="onToggleHamburger()">☰</button>
+            <button class="btn-close-hamburger" type="button" onclick="onToggleHamburger()">X</button>
+
         </div>
 
     </header>
@@ -33,11 +38,13 @@
             <div class="txt-container ">
                 <h1 class="card-title">DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.</h1>
                 <p class="card-text">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-                <br /><br />
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <br /><br />
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
                 </p>
-                
+
                 <button type="button" class="btn-cont-read" onclick="onToggleModal()">Continue Reading</button>
             </div>
         </div>
@@ -51,9 +58,10 @@
                     doconsequat,
                     sunt in culpa qui officia deserunt mollit anim id est laborum.
                     <br /><br />
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
                 </p>
-                
+
                 <button type="button" class="btn-cont-read" onclick="onToggleModal()">Continue Reading</button>
             </div>
         </div>
@@ -67,9 +75,10 @@
                     doconsequat,
                     sunt in culpa qui officia deserunt mollit anim id est laborum.
                     <br /><br />
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
                 </p>
-                
+
                 <button type="button" class="btn-cont-read" onclick="onToggleModal()">Continue Reading</button>
             </div>
         </div>
@@ -80,7 +89,7 @@
         </section>
     </div>
 
-    <footer class="main-footer">
+    <footer class="main-footer grid">
         <section class="footer-content flex  ">
             <div class="logo">Blogin</div>
             <small> &copy; 2014 Blogin.com - All Rights Reserved - Find More free Templates at Pixelhint.com </small>
@@ -97,16 +106,16 @@
         <button class="btn-modal btn-close-modal" type="button" onclick="onToggleModal()">X</button>
         <h2 class="card-title">
             Join us to get access to the latest stories!
-          </h2>
-        <div class="modal-container " >
-                <input class="btn-email-modal" type="email" placeholder="Enter Your Email">
-                <button class="btn-modal btn-submit-modal" type="submit">Submit</button>
-            </div>
-
+        </h2>
+        <div class="modal-container ">
+            <input class="btn-email-modal" type="email" placeholder="Enter Your Email">
+            <button class="btn-modal btn-submit-modal" type="submit">Submit</button>
         </div>
-       
 
-<script src="main.js"></script>
+    </div>
+
+
+    <script src="main.js"></script>
 </body>
 
 </html>

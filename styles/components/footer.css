@@ -8,10 +8,6 @@ background-color:var( --clr-1) ;
 text-align: center;
 align-items: center;
 }
-.main-footer > *{
-    grid-column: 2;
-}
-
 
 
 .main-footer small{

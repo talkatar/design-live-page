@@ -5,6 +5,6 @@ function onToggleHamburger() {
 }
 
 function onToggleModal() {
-//   document.body.classList.toggle('modal-open')
+  document.body.classList.toggle('modal-open')
   document.querySelector('.modal').classList.toggle('closed-modal')
 }

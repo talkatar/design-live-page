@@ -1,7 +1,7 @@
-.modal {
+.modal  {
     position: fixed;
     background-color: var(--clr3);
-    height: 40vh;
+    height: 25vh;
     width: 50vw;
     translate: 50% 50%;
     opacity: 0.9;
@@ -9,8 +9,10 @@
 
 .modal h2 {
     text-align: center;
-    font-size: 30px;
+    font-size:20px;
+    margin-block-start: 45px;
 }
+
 
 .modal-container {
     display: flex;
